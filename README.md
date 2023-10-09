@@ -1,3 +1,5 @@
+Conta Layback: Demo minimalista de um servidor oAuth2 (Authorization Server nos moldes do RFC 6749 https://datatracker.ietf.org/doc/html/rfc6749) que autentica clientes e os redireciona de volta à plataforma de origem, servindo como um intermediário eficiente para rápida autenticação.
+
 ## Dependencies
 
 You must have the following programs installed on your machine in order to run this app:
@@ -31,10 +33,3 @@ In case you want to reset all database data, use this command (the docker image 
   docker images
   docker rmi -f <docker-image-name>
 ```
-## Warning
-
-1. If database data is wiped, no functionality will work, but you might remain authenticated, as the browser will still contain your valid JWT cookies.
-
-In this case, you must log-out and create a new account, which should work with the "Sign-in with Google" button.
-
-2. Microsoft sign-in temporarily suspended. To add the functionality one must sign-in to Microsoft Active Directory, create a project, get an API key and add it to .env. It will be added in future versions, once I get a new Microsoft account.
