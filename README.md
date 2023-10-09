@@ -10,6 +10,10 @@ Para começar, crie uma conta layback, e siga o link que aparecerá na tela para
 
 Pronto! Agora você poderá logar em qualquer dos produtos usando essa conta. Caso você já esteja autenticado, será redirecionado de volta e autenticado na aplicação original, caso contrário, deverá inserir suas credenciais para gerar o token de acesso.
 
+OBS: O login com Google e Facebook funciona perfeitamente no ambiente de desenvolvimento (http://localhost:3000), mas não no ambiente de produção, pois é necessário business review do facebook, provando se tratar de aplicação real, o que demanda um período de tempo um pouco maior para se conseguir a aprovação.
+
+Para utilizá-los no ambiente de produção, crie um aplicativo Google Workspace ou Facebook Business e copie e cole o Client ID e Client Secret no arquivo .env.
+
 ## Dependências
 
 You must have the following programs installed on your machine in order to run this app:
