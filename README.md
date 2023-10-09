@@ -2,7 +2,15 @@
 
 Demo minimalista de um servidor oAuth2 (Authorization Server nos moldes do RFC 6749 https://datatracker.ietf.org/doc/html/rfc6749) que autentica clientes e os redireciona de volta à plataforma de origem, servindo como um intermediário eficiente para rápida autenticação.
 
-## Dependencies
+## Autenticação
+
+O projeto usa Next-Auth e Prisma com Docker, todas ferramentas bem estabelecidas no ambiente Node/Next para autenticação, modelagem de base de dados e conteinerização.
+
+Para começar, crie uma conta layback, e siga o link que aparecerá na tela para confirmar o email da conta (em um ambiente de produção seria enviado por email). 
+
+Pronto! Agora você poderá logar em qualquer dos produtos usando essa conta. Caso você já esteja autenticado, será redirecionado de volta e autenticado na aplicação original, caso contrário, deverá inserir suas credenciais para gerar o token de acesso.
+
+## Dependências
 
 You must have the following programs installed on your machine in order to run this app:
 
@@ -11,7 +19,7 @@ You must have the following programs installed on your machine in order to run t
 ##### npm
 ##### nodejs
 
-## Installation
+## Instalação
 
 Da pasta root, escreva o seguinte comando:
 
