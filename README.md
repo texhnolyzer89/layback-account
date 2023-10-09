@@ -1,4 +1,6 @@
-Conta Layback: Demo minimalista de um servidor oAuth2 (Authorization Server nos moldes do RFC 6749 https://datatracker.ietf.org/doc/html/rfc6749) que autentica clientes e os redireciona de volta à plataforma de origem, servindo como um intermediário eficiente para rápida autenticação.
+## Conta Layback: 
+
+Demo minimalista de um servidor oAuth2 (Authorization Server nos moldes do RFC 6749 https://datatracker.ietf.org/doc/html/rfc6749) que autentica clientes e os redireciona de volta à plataforma de origem, servindo como um intermediário eficiente para rápida autenticação.
 
 ## Dependencies
 
