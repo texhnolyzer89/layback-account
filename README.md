@@ -4,7 +4,7 @@ Demo minimalista de um servidor oAuth2 (Authorization Server nos moldes do RFC 6
 
 ## Autenticação
 
-O projeto usa Next-Auth e Prisma com Docker, todas ferramentas bem estabelecidas no ambiente Node/Next para autenticação, modelagem de base de dados e conteinerização.
+O projeto usa Next-Auth e Prisma com Docker e PostgreSQL, todas ferramentas bem estabelecidas no ambiente Node/Next para autenticação, modelagem de base de dados e conteinerização.
 
 Para começar, crie uma conta layback, e siga o link que aparecerá na tela para confirmar o email da conta (em um ambiente de produção seria enviado por email). 
 
